@@ -6,7 +6,6 @@ public class Car {
     private String name;
     private int price;
     private double engineVolume;
-    private int countOfDoors;
 
     public Car(Long id, String name, int price, double engineVolume) {
         this.id = id;
