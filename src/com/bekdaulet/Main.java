@@ -10,6 +10,8 @@ public class Main {
         DBManager db = new DBManager();
         db.connect();
 
+        System.out.println("Hello, " + in.next() + "!!");
+
         while (true) {
 
             System.out.println("[1] ADD CAR");
