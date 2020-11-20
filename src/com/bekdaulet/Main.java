@@ -11,6 +11,7 @@ public class Main {
         db.connect();
 
         System.out.println("Hello, " + in.next() + "!!");
+        System.out.println("Your age: " + in.nextInt());
 
         while (true) {
 
